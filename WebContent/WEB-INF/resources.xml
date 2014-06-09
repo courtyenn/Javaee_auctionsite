@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <Resource id="auctionDataSource" type="DataSource">
+   JdbcDriver com.mysql.jdbc.Driver
+   JdbcUrl jdbc:mysql://3solstice.com:3306/auction2
+   UserName auction2
+   Password mykey123
+ </Resource>
+</resources>

@@ -1,0 +1,62 @@
+
+	@-webkit-keyframes pulse 
+	{ 
+	  0% {background-color: #C59ACC;} 
+	  100% {background-color: #8D4599;}
+      } 
+      
+      body { 
+      background-color: #45CEEF; 
+      -webkit-animation: pulse 40s infinite alternate; 
+      }
+      
+      h1,h2,h3{
+      margin-top:0;
+      }
+      h1 {
+color: rgb(242, 237, 255);
+font-size: 67px;
+text-shadow: 2px 0px 34px rgb(187, 169, 204);
+}
+div.row.platform {
+background: rgb(233, 231, 231);
+padding: 30px 15px;
+border-radius: 4px;
+}
+#error{
+color:red;
+}
+	
+input, textarea {
+float: left;
+}
+form > input {
+clear: right;
+}
+label {
+float: left;
+clear: both;
+width: 100%;
+margin-top: 14px;
+margin-bottom: 0px;
+}
+input[type="submit"]{
+	clear:both;
+	}
+	
+	dt {
+clear: left;
+}
+
+.btn-success{
+	margin-top:50px;
+	}
+	
+	.dwn-btn{
+	margin: 35px 0 0px 10px;
+	}
+	
+	.disable{
+   pointer-events: none;
+   cursor: default;
+}
